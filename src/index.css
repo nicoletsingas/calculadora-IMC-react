@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.button-componente{
+    padding: 1rem;
+}
+
+#clear-btn, #back-btn{
+    background-color: #616161;
+}
+
+#back-btn{
+    align-self: flex-end;
+}
